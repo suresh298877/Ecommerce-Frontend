@@ -35,7 +35,7 @@ function SellerLogin(props) {
                     localStorage.setItem('vendor_username', response.data.user);
                     // SuccessMsg(response.data.msg);
                     setErrorMsg('')
-                    window.location.href = '/seller/dashboard';
+                    window.location.href = '/';
                 }
             })
             .catch(function (error) {
@@ -44,7 +44,7 @@ function SellerLogin(props) {
 
         const checkVendor = localStorage.getItem('vendor_login');
         if (checkVendor) {
-            window.location.href = 'https://master--suresh298877-mbu-cart.netlify.app/';
+            window.location.href = '/';
         }
     }
 
