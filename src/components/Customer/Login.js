@@ -49,7 +49,7 @@ function Login(props) {
     const checkCustomer = localStorage.getItem('customer_login')
 
     if (checkCustomer) {
-        window.location.href = '/customer/dashboard'
+        window.location.href = '/'
     }
     const buttonEnable = (loginFormData.username !== '') && (loginFormData.password !== '')
 
