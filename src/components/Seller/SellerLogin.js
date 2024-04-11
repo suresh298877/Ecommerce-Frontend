@@ -44,7 +44,7 @@ function SellerLogin(props) {
 
         const checkVendor = localStorage.getItem('vendor_login');
         if (checkVendor) {
-            window.location.href = '/';
+            window.location.href = 'https://master--suresh298877-mbu-cart.netlify.app/';
         }
     }
 
